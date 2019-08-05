@@ -1,0 +1,12 @@
+.flex-wrapper{
+  display: flex;
+}
+
+.grid-wrapper{
+  display: grid;
+}
+
+.main-grid{
+  max-width: 1220px;
+  padding: 2%;
+}
