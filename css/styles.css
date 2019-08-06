@@ -47,7 +47,7 @@
 
 .img-cont-2{
   width: 100%;
-  height: 275px;
+  height: 30vh;
   position: relative;
 }
 
@@ -142,12 +142,39 @@
   position: absolute;
   top: 20px;
   right: 20px;
-
 }
 
-.testing-grig{
+.grid-4-cols{
   display: grid;
-  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  padding: 10px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.item-grid-4-mid{
+  background: #fff3f0;
+  position: relative;
+}
+.h4-grid-4-mid{
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  color: white;
+  background: #ff3300;
+  font-weight: bold;
+  padding-left: 33%;
+}
+.price-desc{
+  padding: 10px;
+  padding-left: 33%;
+  background-color:#ffe7e6;
+}
+.img-comp{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 70px;
 }
 @media(max-width: 765px){
   .grid-2-cols{
