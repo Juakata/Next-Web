@@ -67,6 +67,10 @@
   font-size: 3.5vw;
   font-weight: bold;
 }
+.top-h2:hover{
+  color: white;
+  text-decoration: none;
+}
 .h2-small{
   font-size: 3.5vmin;
 }
@@ -77,6 +81,9 @@
   position: absolute;
   background: linear-gradient(to bottom,transparent, black 90%);
   opacity: 0.9;
+}
+.all-container:hover{
+  background: linear-gradient(to bottom,transparent 20%, black 90%);
 }
 .top-ul{
   font-size: 12px;
@@ -102,11 +109,45 @@
   text-transform: uppercase;
   font-weight: bold;
 }
+.top-h5:hover{
+  color:white;
+  text-decoration: none;
+}
 .cover-text-art{
   position: absolute;
   bottom: 20px;
   left:20px;
   z-index: 1;
+}
+.logo-cover{
+  background: linear-gradient(to right bottom, #f53200 30%, black);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  display: block;
+  top: 0;
+  padding: 20px;
+  z-index: 0;
+  opacity: 0.8;
+}
+.span-logo{
+  color: white;
+  font-weight: bold;
+  font-size: 100px;
+  font-family: 'Saira Stencil One', cursive;
+  letter-spacing: 5px;
+}
+.top-date-span{
+  color: white;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+
+}
+
+.testing-grig{
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
 }
 @media(max-width: 765px){
   .grid-2-cols{
@@ -114,5 +155,8 @@
   }
   .img-cont{
     height: 225px;
+  }
+  .logo-cover{
+    display: none;
   }
 }
