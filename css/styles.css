@@ -1,12 +1,118 @@
 .flex-wrapper{
   display: flex;
+  flex-direction: row;
 }
-
+.dir-col{
+  flex-direction: column;
+}
 .grid-wrapper{
   display: grid;
 }
-
 .main-grid{
   max-width: 1220px;
   padding: 2%;
+}
+.flex1{
+  flex: 1;
+}
+
+
+
+
+
+
+
+
+.background-img{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.back-img-1{
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/Apple-Card-796x418.png");
+}
+.back-img-2{
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/caitlin-1-796x417.png");
+}
+.back-img-3{
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/header-image-feral-hogs-796x417.png");
+}
+
+.img-cont{
+  height: 100%;
+  width: 100%;
+  position: relative;
+  display: table;
+}
+
+.img-cont-2{
+  width: 100%;
+  height: 275px;
+  position: relative;
+}
+
+.grid-2-cols{
+  display: grid;
+  grid-template-columns: 65% 35%;
+  grid-gap: 10px;
+  padding: 10px;
+  margin-right: 10px;
+}
+.span-2-rows{
+  grid-row: span 2;
+}
+.top-h2{
+  color: white;
+  width: 90%;
+  font-size: 3.5vw;
+  font-weight: bold;
+}
+.h2-small{
+  font-size: 3.5vmin;
+}
+.all-container{
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: linear-gradient(to bottom,transparent, black 90%);
+  opacity: 0.9;
+}
+.top-ul{
+  font-size: 12px;
+  color: #c9c9c9;
+}
+.top-li{
+  display: inline;
+}
+.top-li-margin{
+  padding-left: 8px;
+}
+.top-a{
+  color: #c9c9c9;
+  text-decoration: none;
+}
+.top-a:hover{
+  color: white;
+  text-decoration: none;
+}
+.top-h5{
+  font-size: 13px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.cover-text-art{
+  position: absolute;
+  bottom: 20px;
+  left:20px;
+  z-index: 1;
+}
+@media(max-width: 765px){
+  .grid-2-cols{
+    grid-template-columns: 100%;
+  }
+  .img-cont{
+    height: 225px;
+  }
 }
