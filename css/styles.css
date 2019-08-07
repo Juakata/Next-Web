@@ -84,6 +84,32 @@ main{
   margin-bottom: 10px;
   font-family: sans-serif;
   line-height: 20px;
+  font-weight: 600;
+}
+
+.h4-title a{
+  color: black;
+}
+
+.h4-title a:hover{
+  color: #ff4d00;
+  text-decoration-color: #fa8e87;
+}
+
+.caption{
+  font-size: 14px;
+  color: #adadad;
+}
+
+.caption2{
+  font-size: 16px;
+  color: grey;
+}
+
+.caption2 span{
+  font-size: 14px;
+  color: #adadad;
+  text-decoration: line-through;
 }
 
 .background-img{
