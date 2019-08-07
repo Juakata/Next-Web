@@ -1,3 +1,7 @@
+footer{
+  text-align: center;
+}
+
 .grid-wrapper{
   max-width: 1150px;
   padding: 20px;
@@ -26,6 +30,7 @@
   font-family: sans-serif;
   line-height: 20px;
 }
+
 .background-img{
   background-position: center;
   background-repeat: no-repeat;
@@ -231,6 +236,84 @@
   color: #363636;
   text-decoration: none;
 }
+
+.footer-dark-grey{
+  height: 160px;
+  background-color: #151515;
+}
+
+.fa{
+  color: white;
+  background: #383838;
+  width: 40px;
+  height: 40px;
+  padding-top: 10px;
+  border-radius: 50%;
+  border: solid 2px #383838;
+  margin: 0 5px;
+  margin-top: 40px;
+}
+
+.fa:hover{
+  text-decoration: none;
+  color: white;
+  background: #101010;
+}
+
+.ul-footer{
+  margin-top: 30px;
+}
+
+.ul-footer li{
+  display: inline;
+  font-size: 12px;
+  margin: 0 5px;
+}
+
+.ul-footer li a{
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.ul-footer li a:hover{
+  text-decoration: none;
+  color: white;
+}
+
+.footer-black{
+  height: 100px;
+  background-color: black;
+}
+
+.flex-footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 12px;
+  padding-top: 45px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.flex-footer span{
+  color: red;
+}
+
+.footer-text-flex{
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-text-flex p{
+  margin-left: 5px;
+}
+
+.tnw-img-footer1{
+  width: 40px;
+}
+
+.tnw-img-footer2{
+  width: 60px;
+}
+
 @media (max-width: 1052px) {
   .h4-title{
     font-size: 14px;
@@ -242,6 +325,9 @@
   }
 }
 @media(max-width: 765px){
+  #li-team{
+    display: none;
+  }
   .grid-4-cols{
     grid-template-columns: repeat(1,1fr);
   }
@@ -273,6 +359,27 @@
   .text-news-link{
     position: absolute;
     left: 120px;
+  }
+  .fa{
+    margin: 0;
+    margin-top: 40px;
+  }
+  .ul-footer li{
+    margin: 0 2px;
+  }
+  .footer-black{
+    height: 120px;
+  }
+  .flex-footer{
+    padding-top: 36px;
+    flex-direction: column;
+  }
+  .footer-text-flex{
+    justify-content: center;
+    margin-bottom: 6px;
+  }
+  .footer-flex-p{
+    margin-bottom: 6px;
   }
 }
 .flex1{
