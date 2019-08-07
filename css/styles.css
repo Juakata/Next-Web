@@ -242,12 +242,52 @@
   grid-gap: 25px;
   width: 100%;
 }
-.grid3-item{
+.grid3-img-container{
   background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/google-image-search-ui-796x450.jpg");
   background-repeat: no-repeat;
-  background-size:cover;
+  background-size: cover;
   background-position: center;
-  height: 16.5vw;
+  height: 270px;
+  position: relative;
+}
+.grid3-img-back2{
+  background-image: url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F08%2F2019-08-06_15-56-56.png&signature=6717d41b623340288639788df1f7b429");
+}
+.grid3-img-back3{
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2016/04/selfie-796x398.jpg");
+}
+.h2-smaller{
+  font-size: 22px;
+}
+.h2-smaller:hover{
+  text-decoration: underline;
+  text-decoration-color: white;
+}
+.grid3-p-img-container{
+  width: 100%;
+  height: 80px;
+  background-color:#ffe7e6;
+  color: #ff4d00;
+}
+.img-grid3{
+  object-fit: cover;
+  width: 23%;
+  float: right;
+  height: 100%;
+}
+.grid4-text{
+  float: left;
+  display: block;
+  width: 77%;
+  padding: 10px;
+}
+@media(max-width:1200px){
+  .h2-smaller{
+      font-size: 2vw;
+  }
+  .grid3-img-container{
+    height: 22.5vw;
+  }
 }
 @media (max-width: 1052px) {
   .h4-title{
@@ -257,6 +297,15 @@
 @media(max-width: 1025px){
   .grid-4-cols{
     grid-template-columns: repeat(3,1fr);
+  }
+  .grid-3-cols{
+    grid-template-columns: repeat(2,1fr);
+  }
+  .h2-smaller{
+      font-size: 2vw;
+  }
+  .grid3-img-container{
+    height: 35vw;
   }
   .span-2-cols{
     grid-column: span 3;
@@ -268,6 +317,15 @@
 }
 @media(max-width: 765px){
   .grid-4-cols{
+    grid-template-columns: repeat(1,1fr);
+  }
+  .h2-smaller{
+      font-size: 4vw;
+  }
+  .grid3-img-container{
+    height: 70vw;
+  }
+  .grid-3-cols{
     grid-template-columns: repeat(1,1fr);
   }
   .span-2-cols{
