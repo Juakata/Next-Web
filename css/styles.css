@@ -2,6 +2,37 @@ footer{
   text-align: center;
 }
 
+.nav-menu{
+  display: grid;
+  grid-template-columns: 15% 85%;
+}
+
+.img-nav{
+
+}
+
+.img-nav-img{
+  width: 100%;
+}
+
+.div-nav{
+
+}
+
+.ul-black{
+  height: 40px;
+  background: black;
+  color: rgba(255, 255, 255, .6);
+}
+
+.ul-black li{
+  display: inline;
+}
+
+.ul-white li{
+  display: inline;
+}
+
 .grid-wrapper{
   max-width: 1200px;
   padding: 20px;
