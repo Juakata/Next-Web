@@ -233,16 +233,24 @@
   .logo-cover{
     display: none;
   }
-}
-@media (max-width: 760px){
+  .latest{
+    grid-template-columns: 1fr;
+    grid-gap: 2px;
+  }
   .news-link{
-    height: 200px;
+    flex-direction: row;
+    width: 100%;
   }
   .img-news-link{
-    float: left;
     width: 80px;
     height: 80px;
     object-fit: cover;
+    transition: .3s ease-in-out;
+    z-index: 1;
+  }
+  .text-news-link{
+    position: absolute;
+    left: 120px;
   }
 }
 .flex1{
