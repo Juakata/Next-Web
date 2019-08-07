@@ -97,6 +97,7 @@
   color: #c9c9c9;
 }
 .top-li{
+  margin-top: 5px;
   display: inline-block;
 }
 .top-li-margin{
@@ -115,6 +116,7 @@
   color: white;
   text-transform: uppercase;
   font-weight: bold;
+  margin-bottom: 5px;
 }
 .top-h5:hover{
   color:white;
@@ -190,6 +192,11 @@
   font-size: 13px;
   display: block;
 }
+.a-grid-4:hover{
+  color: black;
+  font-size: 13px;
+  text-decoration: none;
+}
 .margin-span{
   margin: 5px;
 }
@@ -256,16 +263,31 @@
 .grid3-img-back3{
   background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2016/04/selfie-796x398.jpg");
 }
+.grid3-img-back4{
+  background-image: url("https://i.ytimg.com/vi/Z1jgaEO9aRs/hqdefault.jpg");
+}
+.grid3-img-back5{
+  background-image: url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F08%2Fphoto-1518738607590-2543e38e0b08.jpg&signature=f72957e86c13a345379e2670dab86174");
+}
+.grid3-img-back6{
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/alexandru-bogdan-ghita-eM6WUs4nKMY-unsplash-Cropped-796x419.jpg");
+}
+.grid3-img-back7{
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/06/Orion-Doom-Bethesda-hed-796x420.jpg");
+}
+.grid3-img-back8{
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/Ooblets-796x417.jpg");
+}
 .h2-smaller{
   font-size: 22px;
 }
 .h2-smaller:hover{
-  text-decoration: underline;
-  text-decoration-color: white;
+  text-decoration: none;
+  border-bottom: 1px solid #ababab;
 }
 .grid3-p-img-container{
   width: 100%;
-  height: 80px;
+  height: 90px;
   background-color:#ffe7e6;
   color: #ff4d00;
 }
@@ -273,13 +295,40 @@
   object-fit: cover;
   width: 23%;
   float: right;
-  height: 100%;
+  height: 97%;
+  margin-top: 2.5px;
 }
 .grid4-text{
   float: left;
   display: block;
   width: 77%;
   padding: 10px;
+  font-size: 14px;
+}
+.h3-grid3{
+  font-weight: bold;
+}
+.grid3-list{
+  font-size: 13px;
+  color: #363636;
+}
+.li-grid3-list{
+  padding: 10px;
+  border-bottom: 1px solid #e6e6e6;
+}
+.circle-list{
+  background: #ff4d00;
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+.h3-grid3 a{
+  color:#ff4d00;
+}
+.h3-grid3 a:hover{
+  text-decoration-color: #ffb0b0;
 }
 @media(max-width:1200px){
   .h2-smaller{
@@ -316,6 +365,16 @@
   }
 }
 @media(max-width: 765px){
+  .ul-grid4-links{
+    position: static;
+  }
+  .gri4-li-change{
+    display: list-item;
+    line-height: 1.7em;
+  }
+  .delete{
+    display: none;
+  }
   .grid-4-cols{
     grid-template-columns: repeat(1,1fr);
   }
