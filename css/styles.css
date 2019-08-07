@@ -64,6 +64,9 @@
 .span-2-rows{
   grid-row: span 2;
 }
+.span-2-cols{
+  grid-column: span 2;
+}
 .top-h2{
   color: white;
   width: 90%;
@@ -93,7 +96,7 @@
   color: #c9c9c9;
 }
 .top-li{
-  display: inline;
+  display: inline-block;
 }
 .top-li-margin{
   padding-left: 8px;
@@ -208,6 +211,25 @@
   color: black;
   font-weight: bold;
   font-size: 16px;
+}
+.title-grid4{
+  color: #ff4d00;
+  font-size: 24px;
+  font-weight:900;
+}
+.ul-grid4-links{
+  color: #ff4d00;
+  justify-self: end;
+  background: green;
+}
+.li-a-grid4{
+  color: #ff4d00;
+  text-decoration: none;
+  font-weight: 600;
+}
+.li-a-grid4:hover{
+  color: #363636;
+  text-decoration: none;
 }
 @media (max-width: 1052px) {
   .h4-title{
