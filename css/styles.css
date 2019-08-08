@@ -77,6 +77,7 @@ main{
 
 .img-news-link{
   width: 100%;
+  transition: .3s ease-in-out;
 }
 
 .h4-title{
