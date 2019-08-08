@@ -9,17 +9,17 @@ main{
 }
 
 .nav-menu{
-  display: grid;
-  grid-template-columns: 100%;
+  display: block;
+  width: 100%;
+  height: 78px;
   position: fixed;
   z-index: 100;
-  width: 100%;
   top:0;
 }
 
 .img-nav-img{
-  width: 100%;
   height: 100%;
+  float: left;
   display: none;
 }
 
@@ -40,17 +40,22 @@ main{
   text-decoration: none;
 }
 .grid-2-cols-nav{
-  display: grid;
-  grid-template-columns: 90% 10%;
+  width: 100%;
+  height: 45px;
+  background: white;
 }
 .ul-white{
   font-size: 14px;
-  background: white;
+  padding: 0;
+  margin: 0;
+  float: left;
+}
+.ul-white-2{
+  font-size: 14px;
+  background: green;
   display: block;
   padding: 0;
   margin: 0;
-}
-.right{
 
 }
 .ul-white li{
@@ -61,6 +66,12 @@ main{
   display: inline-block;
   padding: 15px 5px;
 }
+.ul-white-2 li a{
+  color: #b3b3b3;
+  display: inline-block;
+  padding: 15px 5px;
+  float: right;
+}
 .margin-f-li{
   margin-left: 20px;
 }
@@ -69,15 +80,22 @@ main{
   text-decoration: none;
 }
 .a-search-nav{
-
   border-right: 1px solid #ededed;
   width: 50px;
   font-size: 16px;
   height: 45px;
   text-align: center;
   transform: scaleX(-1);
+  display: inline;
 }
-
+.a-search-nav:hover{
+  color: black;
+  text-decoration: none;
+}
+.menu-icon-nav{
+  color: #eb4034;
+  display: none;
+}
 .grid-wrapper{
   max-width: 1200px;
   padding: 20px;
@@ -530,11 +548,11 @@ main{
   .logo-cover{
     display: none;
   }
-  .nav-menu{
-    grid-template-columns: 120px 90%;
+  .margin-s-li{
+    margin-left: 15px;
   }
   .img-nav-img{
-    display: block;
+    display: inline-block;
   }
   .grid-4-cols{
     grid-template-columns: repeat(3,1fr);
@@ -558,17 +576,19 @@ main{
 }
 @media(max-width: 765px){
   main{
-    margin-top: 57px;
+    margin-top: 45px;
   }
   #li-team{
     display: none;
   }
+  .menu-icon-nav{
+    display: block;
+  }
+  .nav-menu{
+    height: 45px;
+  }
   .ul-black{
     display: none;
-  }
-  .ul-white{
-    padding: 0px;
-    height: 60px;
   }
   .ul-white li{
     display: none;
