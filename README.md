@@ -32,7 +32,7 @@ differently depending on the size of the screen where the website is rendered.
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page]https://github.com/Juakata/Next-Web/issues).
+Feel free to check the [issues page](https://github.com/Juakata/Next-Web/issues).
 
 ## Show your support
 
